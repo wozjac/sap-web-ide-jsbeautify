@@ -1,0 +1,43 @@
+{
+    "name": "sap-web-ide-jsbeautify-formatter",
+    "description": "js-beautify for SAP Web IDE",
+    "i18n": "sap-web-ide-jsbeautify-formatter/i18n/i18n",
+    "requires": {
+        "services": [
+            "content",
+            "log",
+            "command",
+            "commandGroup"
+        ]
+    },
+    "provides": {
+        "services": {
+            "formatter": {
+                "implements": "sap-web-ide-jsbeautify-formatter.service.Formatter",
+                "module": "sap-web-ide-jsbeautify-formatter/service/Formatter"
+            }
+        },
+
+        "interfaces": {
+            "sap-web-ide-jsbeautify-formatter.service.Formatter": "sap-web-ide-jsbeautify-formatter/service/Formatter"
+        }
+    },
+    "configures": {
+        "services": {
+            "command:commands": [{
+                "id": "sap-web-ide-jsbeautify-formatter.beautify",
+                "label": "{i18n>beautify}",
+                "icon": "sap-icon://indent",
+                "keyBinding": "shift+f1",
+                "service": "sap-web-ide-jsbeautify-formatter/command/beautify"
+            }],
+
+            "commandGroup:items": [{
+                "parent": "edit.editor",
+                "type": "action",
+                "command": "sap-web-ide-jsbeautify-formatter.beautify",
+                "prio": 10
+            }]
+        }
+    }
+}

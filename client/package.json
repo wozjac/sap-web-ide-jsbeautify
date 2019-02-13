@@ -1,0 +1,13 @@
+{
+    "name": "sap-web-ide-jsbeautify",
+    "title": "js-beautify for SAP Web IDE",
+    "version": "1.0.3",
+    "visible": true,
+    "description": "js-beautify (beautifier.io) for SAP Web IDE",
+    "author": "Jacek Woźniczak <wozjac@zoho.com> (https://www.linkedin.com/in/jacek-wznk)",
+    "homepage": "https://github.com/wozjac/sap-web-ide-jsbeautify",
+    "icon": "file:sap-web-ide-jsbeautify-formatter/assets/icon.png",
+    "bundledPlugins": {
+        "sap-web-ide-jsbeautify-formatter": "file:sap-web-ide-jsbeautify-formatter"
+    }
+}

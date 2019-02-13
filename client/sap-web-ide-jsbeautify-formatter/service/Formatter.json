@@ -1,0 +1,9 @@
+{
+    "name": "sap-web-ide-jsbeautify-formatter.service.Formatter",
+    "description": "js-beautify plugin interface",
+    "methods": {
+        "format": {
+            "description": "Formats the content"
+        }
+    }
+}
