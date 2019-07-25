@@ -1,5 +1,5 @@
 # js-beautify plugin for SAP Web IDE
-This extension adds a new beautify command, which uses js-beautify (https://github.com/beautify-web/js-beautify).
+This extension adds a new beautify command, which uses js-beautify (https://github.com/beautify-web/js-beautify).  
 Features:
 - supported file types: js, json, css, html and xml 
 - configuration options using the .jsbeautifyrc file
