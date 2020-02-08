@@ -1,7 +1,7 @@
 define([
-    "sap-web-ide-jsbeautify-formatter/js/lib/beautify.min",
-    "sap-web-ide-jsbeautify-formatter/js/lib/beautify-css.min",
-    "sap-web-ide-jsbeautify-formatter/js/lib/beautify-html.min"
+    "sap-web-ide-jsbeautify-formatter/js/lib/beautify",
+    "sap-web-ide-jsbeautify-formatter/js/lib/beautify-css",
+    "sap-web-ide-jsbeautify-formatter/js/lib/beautify-html"
 ], function(beautify, beautifyCss, beautifyHtml) {
 
     return {

@@ -29,7 +29,7 @@ js-beautify options can be passed using .jsbeautifyrc file created in the root p
 For more information and possible options, please check [js-beautify documentation](https://github.com/beautify-web/js-beautify#options).
 
 ## Credits
-- js-beautify (v1.8.9): [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
+- js-beautify (v1.10.3): [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
 
 ## License
 This plugin is licensed under the [MIT license](http://opensource.org/licenses/MIT).
