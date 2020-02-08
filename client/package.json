@@ -1,7 +1,7 @@
 {
     "name": "sap-web-ide-jsbeautify",
     "title": "js-beautify for SAP Web IDE",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "visible": true,
     "description": "js-beautify (beautifier.io) for SAP Web IDE",
     "author": "Jacek Woźniczak <wozjac@zoho.com> (https://www.linkedin.com/in/jacek-wznk)",
